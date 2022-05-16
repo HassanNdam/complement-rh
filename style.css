@@ -28,6 +28,15 @@ body{
     color: #000;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #1cbac8;
+    text-decoration: underline;
+}
 
 
 /* a{
@@ -75,3 +84,21 @@ body{
 
 
   /* foooter */
+
+  footer{
+      background-color: #1cbac8;
+      margin-top: 50px;
+  }
+
+  .fa-linkedin:hover{
+    font-size: 15px;
+  }
+
+  .background-footer{
+      background-color: #1cbac8;
+  }
+
+  .titre-footer{
+      color:#1cbac8 ;
+  }
+
