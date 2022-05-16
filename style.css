@@ -78,10 +78,16 @@ a:hover{
   .header-image{
       background: url(assets/images/header-image1.jpg);
       background-size: cover;
-      height:400px ;
+      height:300px ;
       max-width: 100%
   }
 
+.bg-light-transparent{
+    background-color: #1cbac8;
+    opacity: 1;
+    z-index: 1;
+    border-radius: 0px 0px 20px 20px;
+}
 
   /* foooter */
 
@@ -91,7 +97,7 @@ a:hover{
   }
 
   .fa-linkedin:hover{
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .background-footer{

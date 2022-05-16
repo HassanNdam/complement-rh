@@ -30,8 +30,19 @@ wp_head();
 
 </header>
 
-<div class="position-relative  p-3 p-md-5  overflow-hidden header-image">
-        <div class="text-center">
-                ddddddddd
-        </div>
+<div class="position-relative p-3 p-md-5  overflow-hidden header-image">
+   <!-- header image    -->
+</div>
+
+<div class="container text-center bg-light-transparent p-5">
+            <form class="test">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="col">
+                        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                    </div>
+                </div>
+            </form>
 </div>

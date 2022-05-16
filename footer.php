@@ -1,25 +1,6 @@
 
 <!-- Footer -->
-<footer class="text-center mt-5 text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section
-    class="d-flex justify-content-center justify-content-lg-between text-white background-footer p-4 border-bottom"
-  >
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Suivez-nous :</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div class="justify-content-lg-between">
-      <a href="https://www.linkedin.com/company/complement-rh/" class="me-4 text-reset" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
+<footer class="text-center mt-5 pt-3 border-top text-lg-start bg-light text-muted">
 
   <!-- Section: Links  -->
   <section class="pb-5">
@@ -52,6 +33,17 @@
             <a href="https://complement-rh.fr/politique-de-confidentialite/" class="text-reset" target="_blank">Politique de confidentialité</a>
           </p>
         </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 titre-footer">
+            Suivez-nous
+          </h6>
+          <p>
+          <a href="https://www.linkedin.com/company/complement-rh/" class="me-4 text-reset" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          </p>
+        </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
@@ -76,6 +68,7 @@
   </section>
   <!-- Section: Links  -->
 
+        <!-- Grid column -->
   <!-- Copyright -->
   <div class="text-center p-4 text-white" style="background-color: rgb(34, 34, 34);">
     © 2021 Copyright @ Designed by:
