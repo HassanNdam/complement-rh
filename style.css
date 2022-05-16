@@ -1,0 +1,20 @@
+/* 
+Theme Name: Complement-rh by Paradisiak
+Version: 1.0 
+Description: Expert en recrutement ENERGIES
+Author: Paradisiak
+Couleur bleue claire :  hsl(184, 75.43859649%, 44.70588235%)
+Couleur bleue foncé  : hsl(198 75% 45% / 1);
+
+*/
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: burlywood;
+}
+  
