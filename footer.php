@@ -33,17 +33,7 @@
             <a href="https://complement-rh.fr/politique-de-confidentialite/" class="text-reset" target="_blank">Politique de confidentialité</a>
           </p>
         </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4 titre-footer">
-            Suivez-nous
-          </h6>
-          <p>
-          <a href="https://www.linkedin.com/company/complement-rh/" class="me-4 text-reset" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          </p>
-        </div>
+
         <!-- Grid column -->
 
         <!-- Grid column -->
@@ -61,6 +51,18 @@
           </p>
           <p><i class="fas fa-phone me-3"></i> +33 6 71 78 18 21 </p>
         </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 titre-footer">
+            Suivez-nous
+          </h6>
+          <p>
+          <a href="https://www.linkedin.com/company/complement-rh/" class="me-4 text-reset" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          </p>
+        </div>
         <!-- Grid column -->
       </div>
       <!-- Grid row -->
@@ -70,7 +72,7 @@
 
         <!-- Grid column -->
   <!-- Copyright -->
-  <div class="text-center p-4 text-white" style="background-color: rgb(34, 34, 34);">
+  <div class="text-center p-4 text-white" style="background-color: #1b1b1b;">
     © 2021 Copyright @ Designed by:
     <a class="text-reset fw-bold" href="https://paradisiak.com/" target="_blank">Paradisiak</a>
   </div>
