@@ -97,21 +97,14 @@ a:hover{
 
 /* Formulaire recherche*/
 
-.rechercher{
+#searchsubmit{
     opacity: 1;
     background-color:#1cbac8;
     border: 3px solid white;
     color: white;
     padding: 10px ;
+    display: inline-block;
 }
-
-/* .rechercher:hover{
-    opacity: 1;
-    background-color:#fdfdfd;
-    border: 3px solid #1cbac8;
-    color: rgb(0, 0, 0);
-    padding: 10px ;
-} */
 
 .form-control:focus {
   -webkit-box-shadow: none;
@@ -130,15 +123,6 @@ select:focus > option:checked{
     background: #1cbac8 !important;
     color: #fff;
 }
-
-/* option {
-    background: #fff!important;
-    color: #000 !important;
-  }
-  select {
-    background: #fff!important;
-    color: #000 !important;
-  } */
 
  @media screen and (max-width:767px) {
    .espace-mob{
