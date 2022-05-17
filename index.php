@@ -30,12 +30,12 @@ get_header();
 					</select>
 				</div>
 			</div>
-			<div class="row justify-content-center mt-5">
+			<div class="row justify-content-center mt-4">
 				<div class="col-md-12 search-item">
 					<input type="text" id="s" name="s" placeholder=" MOT CLÉ" class="form-control " value="<?php echo($searchstring); ?>">
 				</div>
 
-				<div class=" col-md-6 search-item">
+				<div class=" col-md-6">
                        <!-- Pour le prochain formulaire -->
 				</div>
 			</div>
