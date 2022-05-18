@@ -85,10 +85,10 @@ a:hover{
 
   .btn:hover{
     opacity: 1;
-    background-color:#ffffff;
+    background-color:#1cbac8;
     border: 3px solid #1cbac8;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: white;
   }
 
   .header-image{
@@ -170,6 +170,15 @@ select:focus > option:checked{
 .text-desc-offre{
   text-align: justify;
   font-size: 18px;
+}
+
+.voir-offre-link{
+  margin-top: 50px;
+}
+
+a .voir-offre-link:hover{
+  color: #000;
+  background-color: #1cbac8;
 }
 
   /* foooter */

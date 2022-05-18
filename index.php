@@ -6,7 +6,7 @@ get_header();
 
 <!-- Formulaire de recherche -->
 
-<div class="container position-relative text-center bg-light-transparent p-5">
+<div class="container position-relative rounded-3 shadow-sm text-center bg-light-transparent p-5">
         <form method="get" id="" action="<?php echo(get_site_url()); ?>">
 			<div class="row searchrow justify-content-center">
 				<div class=" col-md-6 ">
@@ -59,7 +59,7 @@ get_header();
 
 <!-- Affichage poste -->
 
-<div class="container mt-5 mb-5 border rounded-0">
+<div class="container mt-5 mb-5 shadow rounded-3">
     <div class="row justify-content-center">
         <div class="col-lg-5 p-4">
             <h4>Titre du poste</h4>
@@ -68,9 +68,9 @@ get_header();
             </p>
         </div>
         <div class="col-lg-4 p-4">.col-sm-3</div>
-        <div class="col-lg-3 p-4">
-            <a href="<?php the_permalink();?>">
-                 <button type="submit"  class="btn rechercher text-white">Voir l'offre</button>
+        <div class="col-lg-3 p-4 text-end">
+            <a href="<?php the_permalink();?>"  title="Visiter l'offre">
+                 <button type="submit"  class="btn btn-primary voir-offre-link text-white">Voir l'offre</button>
              </a>
         </div>
     </div>
