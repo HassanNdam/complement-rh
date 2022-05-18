@@ -26,15 +26,16 @@
           <h6 class="text-uppercase fw-bold mb-4 titre-footer">
             Important
           </h6>
-          <p>
+          <p class="text-start">
             <a href="https://complement-rh.fr/mentions-legales/" class="text-reset" target="_blank">Mentions légales</a>
           </p>
-          <p>
+          <p class="text-start">
             <a href="https://complement-rh.fr/politique-de-confidentialite/" class="text-reset" target="_blank">Politique de confidentialité</a>
           </p>
+          <p class="text-start">
+            <a href="https://intuition-software.com/" class="text-reset" target="_blank">Logiciel de recrutement</a>
+          </p>
         </div>
-
-        <!-- Grid column -->
 
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
