@@ -1,5 +1,24 @@
 <?php
 
+
+//Limitation excerpt POST
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 25;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+
+
+// Retrait de [] dans excerpt
+
+function wpdocs_excerpt_more( $more ) {
+    return '...';
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
+
+
 function complement_support(){
     add_theme_support('title-tag'); 
     add_theme_support('custom-logo');
