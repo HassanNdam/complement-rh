@@ -72,7 +72,7 @@
 
         <!-- Grid column -->
   <!-- Copyright -->
-  <div class="text-center p-4 text-white" style="background-color: #1b1b1b;">
+  <div class="text-center p-4 text-white" style="background-color: #1cbac8;">
     © 2021 Copyright @ Designed by:
     <a class="text-reset fw-bold" href="https://paradisiak.com/" target="_blank">Paradisiak</a>
   </div>
