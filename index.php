@@ -47,13 +47,33 @@ get_header();
 		</form>
 </div>
 
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item accueil"><a href="<?php echo get_site_url();?>">Accueil</a></li>
         <li class="breadcrumb-item active" aria-current="page">Nos offres</li>
     </ol>
     </nav>
+</div>
+
+
+<!-- Affichage poste -->
+
+<div class="container mt-5 mb-5 border rounded-0">
+    <div class="row justify-content-center">
+        <div class="col-lg-5 p-4">
+            <h4>Titre du poste</h4>
+            <p class="mt-3 text-desc-offre">
+                Vous intervenez sur une opération de bureaux en conception/réalisation d'un montant de 50 millions d'euros. Les corps d'états représentent 20 millions d'euros.
+            </p>
+        </div>
+        <div class="col-lg-4 p-4">.col-sm-3</div>
+        <div class="col-lg-3 p-4">
+            <a href="<?php the_permalink();?>">
+                 <button type="submit"  class="btn rechercher text-white">Voir l'offre</button>
+             </a>
+        </div>
+    </div>
 </div>
 
 <?php
