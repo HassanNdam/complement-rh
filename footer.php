@@ -32,9 +32,6 @@
           <p class="text-start">
             <a href="https://complement-rh.fr/politique-de-confidentialite/" class="text-reset" target="_blank">Politique de confidentialité</a>
           </p>
-          <p class="text-start">
-            <a href="https://intuition-software.com/" class="text-reset" target="_blank">Logiciel de recrutement</a>
-          </p>
         </div>
 
         <!-- Grid column -->
