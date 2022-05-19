@@ -17,6 +17,10 @@ $wp_query = $myquery;
 
 ?>
 
+<div class="position-relative p-3 p-md-5  overflow-hidden header-image">
+   <!-- header image    -->
+</div>
+
 <!-- Formulaire de recherche -->
 
 <div class="container position-relative  border text-center bg-light-transparent p-5">
