@@ -15,6 +15,32 @@ $args['meta_query'] = $metaquery;
 $myquery = new WP_Query($args);
 $wp_query = $myquery; 
 
+$keyword = '';
+$location ='';
+$activite = '0';
+
+if($_GET) {
+
+	if (isset($_GET['s'])) {
+		 $motcle = $_GET['s'];
+		 };
+
+	if (isset($_GET['location'])) {
+		$activite = $_GET['activite'];
+
+		if ($activite > 0) {
+			array_push($metaquery, array(
+						'key' => 'job_activity',
+				        'value' => ACTIVITE[$activite -1],
+				        'compare' => '=',)
+				);
+		};
+	}
+
+};
+
+
+
 ?>
 
 <div class="position-relative p-3 p-md-5  overflow-hidden header-image">
@@ -24,23 +50,23 @@ $wp_query = $myquery;
 <!-- Formulaire de recherche -->
 
 <div class="container position-relative  border text-center bg-light-transparent p-5">
-        <form method="get" id="" action="<?php echo(get_site_url()); ?>">
+        <form method="get" id="search-form" action="<?php echo home_url( '/' ); ?>">
 			<div class="row searchrow justify-content-center">
-				<div class=" col-md-6 ">
-                    <input type="text" id="location" name="location" class="form-control" placeholder="CP, DEPARTEMENT, REGION, VILLE" value="<?php echo($localisation); ?>">
+				<div class="col-md-6 ">
+                    <input type="text" id="location" name="location" class="form-control" placeholder="CP, DEPARTEMENT, REGION, VILLE" value="<?php echo($location); ?>">
 				</div>
 
-				<div class=" col-md-6 search-item">
-					<select name="metier" id="_metier-field" class="form-control form-select espace-mob">
-						<option value="0" <?php if ($metier == '0') echo('selected'); ?>>SECTEUR D'ACTIVITE</option>
+				<div class="col-md-6">
+					<select name="activite" id="_activite-field" class="form-control form-select espace-mob">
+						<option value="0" <?php if ($activite == '0') echo('selected'); ?>>SECTEUR D'ACTIVITE</option>
 						<?php 
 						$size = count(ACTIVITE);
 						for($i=0; $i < $size;++$i) {
 							echo("<option value='" . ($i + 1) . "'");
-							if($metier == $i + 1) {
+							if($activite == $i + 1) {
 								echo(" selected='selected'");
 							}
-							echo(">". ACTIVITE[$i] . "</option>");
+							echo(">". ACTIVITE[$i]. "</option>");
 						};
 						?>
 
@@ -49,7 +75,7 @@ $wp_query = $myquery;
 			</div>
 			<div class="row justify-content-center mt-4">
 				<div class="col-md-12 search-item">
-					<input type="text" id="s" name="s" placeholder=" MOT CLÉ" class="form-control " value="<?php echo($searchstring); ?>">
+					<input type="text" id="s" name="s" placeholder=" MOT CLÉ" class="form-control " value="<?php echo($keyword); ?>">
 				</div>
 
 				<div class=" col-md-6">
@@ -58,7 +84,7 @@ $wp_query = $myquery;
 			</div>
 			<div class="row justify-content-center mt-5">
 				<div class="col-lg-3">
-					<button type="submit" id="searchsubmit" class="rechercher"><i class="fa fa-search" aria-hidden="true"></i> Rechercher des offres</button>
+					<button type="submit" id="searchsubmit" class="rechercher" value="search"><i class="fa fa-search" aria-hidden="true"></i> Rechercher des offres</button>
 				</div>
 			</div>
 		</form>
@@ -69,8 +95,6 @@ $wp_query = $myquery;
     <ol class="breadcrumb">
         <li class="breadcrumb-item accueil"><a href="<?php echo get_site_url();?>">Accueil</a></li>
         <li class="breadcrumb-item active" aria-current="page">Nos offres</li>
-        <!-- <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
-        <span class="sr-only">Loading...</span> -->
     </ol>
     </nav>
 </div>
@@ -85,7 +109,7 @@ $wp_query = $myquery;
 $postid = get_post_custom_values('job_id')[0];
 $postcontract = get_post_custom_values('job_contract_type')[0];
 $postlocation = get_post_custom_values('job_location')[0];
-
+$postactivite = get_post_custom_values('job_activity')[0];
 ?>
 
 <div class="container mt-5 mb-5  block-offre position-relative">
