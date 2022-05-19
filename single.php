@@ -14,7 +14,7 @@ $postlocation = get_post_custom_values('job_location')[0];
 </div>
 
 
-<div class="container mt-5 mb-5 block-accueil-offre">
+<div class="container mt-5 mb-5 ">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item accueil"><a href="<?php echo get_site_url();?>">Accueil</a></li>
