@@ -27,7 +27,7 @@ $wp_query = $myquery;
         <form method="get" id="" action="<?php echo(get_site_url()); ?>">
 			<div class="row searchrow justify-content-center">
 				<div class=" col-md-6 ">
-                    <input type="text" id="location" name="location" class="form-control" placeholder="CP, DEPARTEMENT, REGION" value="<?php echo($localisation); ?>">
+                    <input type="text" id="location" name="location" class="form-control" placeholder="CP, DEPARTEMENT, REGION, VILLE" value="<?php echo($localisation); ?>">
 				</div>
 
 				<div class=" col-md-6 search-item">

@@ -30,6 +30,14 @@ h4{
   text-transform: uppercase;
 }
 
+h6{
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    color: #1cbac8;
+}
+
 p{
   color: #555;
   text-align: justify;
@@ -108,6 +116,14 @@ a:hover{
     margin-top: -100px;
 }
 
+@media screen and (max-width:767px) {
+  .site-header .btn{
+    margin: 35px 0 35px 0px;
+  }
+}
+
+
+
 /* Formulaire recherche*/
 
 #searchsubmit{
@@ -179,16 +195,50 @@ select:focus > option:checked{
 }
 
 .block-offre{
-  border-top: 4px solid #1cbac8;
-  border-left: 4px solid rgb(34, 34, 34);
-  border-bottom: 4px solid rgb(34, 34, 34);
-  border-right: 4px solid #1cbac8;
+  border-top: 3px solid #1cbac8;
+  border-left: 3px solid rgb(34, 34, 34);
+  border-bottom: 3px solid rgb(34, 34, 34);
+  border-right: 3px solid #1cbac8;
+}
+
+/* Single page */
+
+.bloc-heigh-single{
+  margin-top: -200px;
+}
+
+.single-image{
+  background: url(assets/images/header-image-3.png);
+  background-size: cover;
+  height:200px ;
+  max-width: 100%;
+}
+
+.titre-single{
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
 }
 
 
+#single-page p{
+ text-align: justify;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+#single-page h4{
+  margin-bottom: 25px;
+}
 
 
-  /* foooter */
+@media screen and (max-width:991px) {
+  .post-desc-right{
+    margin-top: 4rem;
+  }
+}
+
+  /* footer */
 
 
   footer{
