@@ -31,7 +31,4 @@ wp_head();
 
 </header>
 
-<div class="position-relative p-3 p-md-5  overflow-hidden header-image">
-   <!-- header image    -->
-</div>
 
