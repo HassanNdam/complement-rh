@@ -40,9 +40,9 @@
           <h6 class="text-uppercase fw-bold mb-4 titre-footer">
             Contact
           </h6>
-          <p><i class="fas fa-home me-3"></i> 
+          <!-- <p><i class="fas fa-home me-3"></i> 
                     3 rue des Cigognes – Aéroparc II  67960 ENTZHEIM
-            </p>
+          </p> -->
           <p>
             <i class="fas fa-envelope me-3"></i>
             contact@complement-rh.fr
