@@ -148,7 +148,7 @@ $wp_query = $myquery;
                                     <h4> <?php echo the_title_attribute();?></h4>	               
                             </div>
                             <div class="row">
-                                    <h4 class="date-offre mt-3"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="text-muted font-italic">Publiée<?php echo get_the_date();?></span></h4>
+                                    <h4 class="date-offre mt-3"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="text-muted font-italic">Publiée le <?php echo get_the_date();?></span></h4>
                                     <h4 class="local-offre mt-3"><i class="fa fa-map-marker" aria-hidden="true"></i> <?php echo $postlocation; ?></h4>
                                     <h4 class="type-offre mt-3"><i class="fa fa-briefcase" aria-hidden="true"></i>  <?php echo $postcontract?></h4>
                             </div>
