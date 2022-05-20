@@ -137,8 +137,8 @@ $wp_query = $myquery;
                 $postlocation = get_post_custom_values('job_location')[0];
                 $postactivite = get_post_custom_values('job_activity')[0];
             ?>
-            <div class="col-lg-6 mt-2 mb-4 position-relative">
-                <div class="block-offre">
+            <div class="col-lg-6 mt-1 mb-4">
+                <div class="block-offre position-relative">
                     <div class="row align-items-center">
                         <div class="col-2">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(). '/assets/icone/favicon.png'?>"> 
@@ -153,7 +153,7 @@ $wp_query = $myquery;
                                 <h4 class="type-offre mt-3"><i class="fa fa-briefcase" aria-hidden="true"></i>  <?php echo $postcontract?></h4>
                             </div>
                             </div>                
-                            <div class="col-lg-3 mb-4 text-center">
+                            <div class="col mb-3">
                                 <a href="<?php the_permalink();?>" class="stretched-link" title="Visiter l'offre d'emploi <?php echo the_title_attribute();?>">
                                     <button type="submit"  class="btn btn-primary voir-offre-link text-white">Voir l'offre <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                                 </a>
@@ -192,6 +192,6 @@ $wp_query = $myquery;
                             </a>
                         </div>
                 </div>
-            </div><br>
+            </div>
     <?php endif; ?>
 	</div>

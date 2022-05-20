@@ -199,12 +199,12 @@ select:focus > option:checked{
   margin-top: 50px;
 }
 
-.block-offre{
+.block-offre {
+  padding: 0.5em;
   border-top: 3px solid #1cbac8;
   border-left: 3px solid rgb(34, 34, 34);
   border-bottom: 3px solid rgb(34, 34, 34);
   border-right: 3px solid #1cbac8;
-  /*Taille bloc offre */
 }
 
 .date-offre, .local-offre, .type-offre{
@@ -216,12 +216,6 @@ select:focus > option:checked{
   font-style: italic;
   font-size: 12px;
 }
-
-
-
-
-
-
 
 
 /* Single page */
