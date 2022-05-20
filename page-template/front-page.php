@@ -1,5 +1,5 @@
 <?php
-// Déclaration des variables globaux et des requettes wp
+// Déclaration des variables et test par le GET
 
 global $wp_query;
 $args = $wp_query -> query_vars; 
