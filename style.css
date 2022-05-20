@@ -183,6 +183,11 @@ select:focus > option:checked{
 
 }
 
+.post-nombre{
+  font-weight: 500;
+  color: #000;
+}
+
 /* Affichage poste */
 
 .text-desc-offre{
@@ -191,7 +196,7 @@ select:focus > option:checked{
 }
 
 .voir-offre-link{
-  margin-top: 65px;
+  margin-top: 50px;
 }
 
 .block-offre{
@@ -199,7 +204,25 @@ select:focus > option:checked{
   border-left: 3px solid rgb(34, 34, 34);
   border-bottom: 3px solid rgb(34, 34, 34);
   border-right: 3px solid #1cbac8;
+  /*Taille bloc offre */
 }
+
+.date-offre, .local-offre, .type-offre{
+  color: rgb(34, 34, 34);
+  font-size: 15px;
+}
+
+.font-italic{
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
 
 /* Single page */
 
@@ -238,6 +261,26 @@ select:focus > option:checked{
   }
 }
 
+/* 
+Recherche non trouvée */
+
+
+.aucun-poste{
+  font-size: 18px;
+
+}
+
+.revenir-liste{
+  color: #1cbac8;
+  font: inherit;
+  font-size: large;
+}
+
+.post-non-trouve{
+  padding-top:100px;
+  padding-bottom: 120px;
+}
+
   /* footer */
 
 
@@ -248,6 +291,11 @@ select:focus > option:checked{
 
   .fa-linkedin:hover{
     font-size: 17px;
+  }
+
+  .post-non-trouve .fa-search{
+    font-size: 100px;
+    color: #1cbac8;
   }
 
   .background-footer{
