@@ -215,6 +215,7 @@ select:focus > option:checked{
 .font-italic{
   font-style: italic;
   font-size: 12px;
+  text-transform: none;
 }
 
 
