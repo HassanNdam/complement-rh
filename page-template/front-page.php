@@ -52,6 +52,7 @@ if($_GET) {
 
 };
 
+
 $args['meta_query'] = $metaquery;
 
 $myquery = new WP_Query($args);
@@ -100,11 +101,14 @@ $wp_query = $myquery;
                        <!-- Pour le prochain formulaire -->
 				</div>
 			</div>
-			<div class="row justify-content-center mt-5">
+			<div class="row justify-content-center mt-5 mb-5">
 				<div class="col-lg-3">
-					<button type="submit" id="searchsubmit" class="rechercher" value="search"><i class="fa fa-search" aria-hidden="true"></i> Rechercher des offres</button>
+					<button type="submit" id="searchsubmit" class="rechercher" name="search" value="search"><i class="fa fa-search" aria-hidden="true"></i> Rechercher des offres</button>
 				</div>
 			</div>
+            <div class ="row">
+                <?php Reinitialiser();?>
+            </div>
 		</form>
 </div>
 
@@ -152,7 +156,8 @@ $wp_query = $myquery;
                                         <h4 class="local-offre mt-3"><i class="fa fa-map-marker" aria-hidden="true"></i> <?php echo $postlocation; ?></h4>
                                         <h4 class="type-offre mt-3"><i class="fa fa-briefcase" aria-hidden="true"></i>  <?php echo $postcontract?></h4>
                                 </div>
-                            </div>                
+                            </div>    
+                                        
                             <div class="col-12 text-center">
                                 <a href="<?php the_permalink();?>" class="stretched-link" title="Visiter l'offre d'emploi <?php echo the_title_attribute();?>">
                                     <button type="submit"  class="btn btn-primary voir-offre-link text-white">Voir l'offre <i class="fa fa-angle-right" aria-hidden="true"></i></button>
@@ -161,8 +166,7 @@ $wp_query = $myquery;
                         </div>
                     </div>
                 </div>
-            </div>
-
+            </div>                        
             <?php $index += 1; ?>
             <?php if ( $index %2 == 0 ) : ?>
                 </div>

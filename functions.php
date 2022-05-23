@@ -38,4 +38,18 @@ function complement_style(){
 }
 add_action('wp_enqueue_scripts', 'complement_style');
 
+
+function Reinitialiser(){
+
+    if($_GET){
+        if((isset($_GET['s'])) or isset($_GET['location']) or isset(($_GET['activite']))){
+            ?>
+            <a href="<?php echo get_site_url(); ?>">
+                Actualiser <i class="fas fa-sync fa-spin"></i>
+            </a>
+            <?php
+        }
+}
+}
+
 ?>
