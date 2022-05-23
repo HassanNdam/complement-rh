@@ -13,6 +13,9 @@
           <h6 class="text-uppercase fw-bold mb-4 titre-footer">
             </i>COMPLÉMENT-RH 
           </h6>
+          <!-- <p>
+          SAS Complément RH SIRET 793 201 765 00039 
+          </p> -->
           <a href="https://complement-rh.fr/" target="_blank">
             <img class ="img-fluid mt-2"src="<?php echo (get_template_directory_uri() . '/assets/icone/favicon.png') ?>" alt="">
           </a>
@@ -23,11 +26,11 @@
           <h6 class="text-uppercase fw-bold mb-4 titre-footer">
             Important
           </h6>
-          <p class="text-start">
+          <p>
             <a href="https://complement-rh.fr/mentions-legales/" class="text-reset" target="_blank">Mentions légales</a>
           </p>
-          <p class="text-start">
-            <a href="https://complement-rh.fr/politique-de-confidentialite/" class="text-reset" target="_blank">Politique de confidentialité</a>
+          <p>
+            <a href="https://complement-rh.fr/politique-de-confidentialite/" class="text-reset" target="_blank">Politique confidentialité</a>
           </p>
         </div>
 
