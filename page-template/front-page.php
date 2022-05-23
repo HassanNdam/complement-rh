@@ -153,7 +153,7 @@ $wp_query = $myquery;
                                         <h4 class="type-offre mt-3"><i class="fa fa-briefcase" aria-hidden="true"></i>  <?php echo $postcontract?></h4>
                                 </div>
                             </div>                
-                            <div class="col text-center">
+                            <div class="col-12 text-center">
                                 <a href="<?php the_permalink();?>" class="stretched-link" title="Visiter l'offre d'emploi <?php echo the_title_attribute();?>">
                                     <button type="submit"  class="btn btn-primary voir-offre-link text-white">Voir l'offre <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                                 </a>
