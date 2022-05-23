@@ -64,7 +64,7 @@ a:hover{
     color: #1cbac8;
     text-decoration: underline;
 }
-  
+
   /* header */
 
   .btn{
@@ -196,7 +196,9 @@ select:focus > option:checked{
 }
 
 .voir-offre-link{
-  margin-top: 50px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -10px;
 }
 
 .block-offre {
@@ -205,6 +207,7 @@ select:focus > option:checked{
   border-left: 3px solid rgb(34, 34, 34);
   border-bottom: 3px solid rgb(34, 34, 34);
   border-right: 3px solid #1cbac8;
+  max-height: 230px;
 }
 
 .date-offre, .local-offre, .type-offre{

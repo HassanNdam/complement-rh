@@ -138,22 +138,22 @@ $wp_query = $myquery;
                 $postactivite = get_post_custom_values('job_activity')[0];
             ?>
             <div class="col-lg-6 mt-1 mb-4">
-                <div class="block-offre position-relative">
+                <div class="block-offre mb-4 position-relative">
                     <div class="row align-items-center">
                         <div class="col-2">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(). '/assets/icone/favicon.png'?>"> 
                         </div>
                         <div class="col-10"><div>			
-                            <div class="row mt-3">
+                            <div class="row mt-2">
                                     <h4> <?php echo the_title_attribute();?></h4>	               
                             </div>
-                            <div class="row">
-                                    <h4 class="date-offre mt-3"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="text-muted font-italic">Publiée le <?php echo get_the_date();?></span></h4>
-                                    <h4 class="local-offre mt-3"><i class="fa fa-map-marker" aria-hidden="true"></i> <?php echo $postlocation; ?></h4>
-                                    <h4 class="type-offre mt-3"><i class="fa fa-briefcase" aria-hidden="true"></i>  <?php echo $postcontract?></h4>
-                            </div>
+                                <div class="row">
+                                        <h4 class="date-offre mt-3"><i class="fa fa-calendar" aria-hidden="true"></i> <span class="text-muted font-italic">Publiée le <?php echo get_the_date();?></span></h4>
+                                        <h4 class="local-offre mt-3"><i class="fa fa-map-marker" aria-hidden="true"></i> <?php echo $postlocation; ?></h4>
+                                        <h4 class="type-offre mt-3"><i class="fa fa-briefcase" aria-hidden="true"></i>  <?php echo $postcontract?></h4>
+                                </div>
                             </div>                
-                            <div class="col mb-3">
+                            <div class="col text-center">
                                 <a href="<?php the_permalink();?>" class="stretched-link" title="Visiter l'offre d'emploi <?php echo the_title_attribute();?>">
                                     <button type="submit"  class="btn btn-primary voir-offre-link text-white">Voir l'offre <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                                 </a>
