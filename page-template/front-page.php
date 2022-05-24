@@ -101,7 +101,7 @@ $wp_query = $myquery;
                        <!-- Pour le prochain formulaire -->
 				</div>
 			</div>
-			<div class="row justify-content-center mt-5 mb-5">
+			<div class="row justify-content-center mt-5 mb-1">
 				<div class="col-lg-3">
 					<button type="submit" id="searchsubmit" class="rechercher" name="search" value="search"><i class="fa fa-search" aria-hidden="true"></i> Rechercher des offres</button>
 				</div>
@@ -159,8 +159,8 @@ $wp_query = $myquery;
                             </div>    
                                         
                             <div class="col-12 text-center">
-                                <a href="<?php the_permalink();?>" class="stretched-link" title="Visiter l'offre d'emploi <?php echo the_title_attribute();?>">
-                                    <button type="submit"  class="btn btn-primary voir-offre-link text-white">Voir l'offre <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                                <a href="<?php the_permalink();?>" class="stretched-link " title="Visiter l'offre d'emploi <?php echo the_title_attribute();?>">
+                                    <button type="submit"  class="btn btn-primary see-post text-white">Voir l'offre <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                                 </a>
                             </div>
                         </div>
