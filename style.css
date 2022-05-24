@@ -203,10 +203,10 @@ select:focus > option:checked{
 
 .block-offre {
   padding: 0.5em;
-  border-top: 3px solid #1cbac8;
-  border-left: 3px solid rgb(34, 34, 34);
-  border-bottom: 3px solid rgb(34, 34, 34);
-  border-right: 3px solid #1cbac8;
+  border-top: 2px solid #1cbac8;
+  border-left: 2px solid rgb(34, 34, 34);
+  border-bottom: 2px solid rgb(34, 34, 34);
+  border-right: 2px solid #1cbac8;
   max-height: 230px;
   position: relative;
   display: flex;
