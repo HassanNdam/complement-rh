@@ -178,7 +178,8 @@ $wp_query = $myquery;
         <?php if ( $index %2 <> 0 ) : ?>
         </div>
         <?php endif; ?>
-        
+
+
     <?php else : ?>
             <div class="container post-non-trouve shadow-sm bg-light rounded-3 mt-5 mb-5 ">
                 <div class="row justify-content-center mt-4">  
@@ -198,4 +199,12 @@ $wp_query = $myquery;
                  </div>
             </div>
     <?php endif; ?>
-	</div>
+</div>
+
+
+<div class="row justify-content-center mt-4 mb-5">
+    <div class="col-1"></div>
+        <div class="col-1 text-center margin-pagination">
+            <?php pagination_post(); ?>
+        </div>
+</div>

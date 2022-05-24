@@ -225,6 +225,36 @@ select:focus > option:checked{
   text-transform: none;
 }
 
+/* Pagination */
+
+.page-item.active .page-link {
+
+  background-color: #1cbac8;;
+  border-color: #1cbac8;;
+}
+
+
+.page-link {
+  color: #1cbac8;
+  border: 1px solid #1cbac8;
+}
+
+.page-link:hover {
+  color: #1cbac8;
+  border: 1px solid #1cbac8;
+  text-decoration: none;
+}
+
+.page-link:focus, .page-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #1cbac8;
+}
+
+.margin-pagination {
+  margin-left: -110px;
+}
+
 
 /* Single page */
 
