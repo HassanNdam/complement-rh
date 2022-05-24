@@ -39,7 +39,7 @@ function complement_style(){
 add_action('wp_enqueue_scripts', 'complement_style');
 
 
-function Reinitialiser(){
+function reinitialiser(){
 
     if($_GET){
         if((isset($_GET['s'])) or isset($_GET['location']) or isset(($_GET['activite']))){

@@ -107,7 +107,7 @@ $wp_query = $myquery;
 				</div>
 			</div>
             <div class ="row">
-                <?php Reinitialiser();?>
+                <?php reinitialiser();?>
             </div>
 		</form>
 </div>
