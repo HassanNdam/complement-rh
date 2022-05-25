@@ -140,6 +140,7 @@ $wp_query = $myquery;
                 $postcontract = get_post_custom_values('job_contract_type')[0];
                 $postlocation = get_post_custom_values('job_location')[0];
                 $postactivite = get_post_custom_values('job_activity')[0];
+                $postlink = get_post_custom_values('job_link')[0];
             ?>
             <div class="col-lg-6 mt-1 mb-4">
                 <div class="block-offre mb-4 position-relative">
@@ -201,10 +202,11 @@ $wp_query = $myquery;
     <?php endif; ?>
 </div>
 
-
-<div class="row justify-content-center mt-4 mb-5">
-    <div class="col-1"></div>
-        <div class="col-1 text-center margin-pagination">
-            <?php pagination_post(); ?>
-        </div>
+<div class="container">
+    <div class="row justify-content-center mt-4 mb-5">
+        <div class="col-1"></div>
+            <div class="col-1 text-center margin-pagination">
+                <?php pagination_post(); ?>
+            </div>
+    </div>
 </div>
