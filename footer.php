@@ -3,7 +3,7 @@
 <footer class="text-center mt-5 pt-3 border-top text-lg-start bg-light text-muted">
 
   <!-- Section: Links  -->
-  <section class="pb-5">
+  <section class="pb-1">
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
       <div class="row mt-3">
@@ -21,7 +21,7 @@
           </a>
         </div>
 
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4 titre-footer">
             Important
@@ -48,18 +48,6 @@
             contact@complement-rh.fr
           </p>
           <p><i class="fas fa-phone me-3"></i> +33 6 71 78 18 21 </p>
-        </div>
-
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4 titre-footer">
-            Suivez-nous
-          </h6>
-          <p>
-          <a href="https://www.linkedin.com/company/complement-rh/" class="me-4 text-reset" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          </p>
         </div>
         <!-- Grid column -->
       </div>
