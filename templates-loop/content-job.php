@@ -5,6 +5,7 @@ $postid = get_post_custom_values('job_id')[0];
 $postcontract = get_post_custom_values('job_contract_type')[0];
 $postlocation = get_post_custom_values('job_location')[0];
 $postactivite = get_post_custom_values('job_activity')[0];
+$postlink = get_post_custom_values('job_link')[0];
 
 ?>
 
@@ -31,7 +32,7 @@ $postactivite = get_post_custom_values('job_activity')[0];
 
                     <div class="col mt-2 text-center">
                         <div class="col">
-                            <a href="https://jobaffinity.fr/apply/uxlpt6amipoyw7dy81" target="_blank" title="Postuler à l'offre <?php echo the_title_attribute();?>">
+                            <a href="<?php echo $postlink ;?>" target="_blank" title="Postuler à l'offre <?php echo the_title_attribute();?>">
                                 <button type="button" class="btn btn-primary" onclick="this.blur();">Postuler <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                             </a>
                         </div>
@@ -57,7 +58,7 @@ $postactivite = get_post_custom_values('job_activity')[0];
                             <i class="fa fa-briefcase" aria-hidden="true"></i> <?php echo $postlocation; ?>
                         </div>
                         <div class="col text-center mt-5">
-                                <a href="https://jobaffinity.fr/apply/uxlpt6amipoyw7dy81" target="_blank" title="Postuler à l'offre <?php echo the_title_attribute();?>">
+                                <a href="<?php echo $postlink; ?>" target="_blank" title="Postuler à l'offre <?php echo the_title_attribute();?>">
                                     <button type="button" class="btn btn-primary" onclick="this.blur();">Postuler <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                                 </a>
                         </div>
