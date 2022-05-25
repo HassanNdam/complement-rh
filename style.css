@@ -55,6 +55,11 @@ p{
     box-shadow: none !important;
   }
 
+
+.form-control::-webkit-input-placeholder {
+  color: rgb(0, 0, 0);
+}
+
 a{
     text-decoration: none;
     color: #000;
@@ -254,7 +259,6 @@ select:focus > option:checked{
 .margin-pagination {
   margin-left: -110px;
 }
-
 
 /* Single page */
 

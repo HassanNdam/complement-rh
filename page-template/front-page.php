@@ -94,7 +94,7 @@ $wp_query = $myquery;
 			</div>
 			<div class="row justify-content-center mt-4">
 				<div class="col-md-12 search-item">
-					<input type="text" id="s" name="s" placeholder=" MOT CLÉ" class="form-control " value="<?php echo $keyword; ?>">
+					<input type="text" id="s" name="s" placeholder=" MOT CLÉS" class="form-control " value="<?php echo $keyword; ?>">
 				</div>
 
 				<div class=" col-md-6">
