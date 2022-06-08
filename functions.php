@@ -45,7 +45,7 @@ function reinitialiser(){
         if((isset($_GET['s'])) or isset($_GET['location']) or isset(($_GET['activite']))){
             ?>
             <a href="<?php echo get_site_url(); ?>" class="mt-5">
-                Actualiser <i class="fas fa-sync fa-spin"></i>
+                Actualiser <i class="fas fa-sync fa-sync"></i>
             </a>
             <?php
         }
