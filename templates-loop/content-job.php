@@ -1,6 +1,21 @@
 
 <?php 
 
+
+$keyword = '';
+$location ='';
+
+if($_GET) {
+	if (isset($_GET['s'])) {
+		 $keyword = $_GET['s'];
+
+		 };
+
+	if (isset($_GET['location'])) {
+		$location = $_GET['location'];
+	};
+};
+
 $postid = get_post_custom_values('job_id')[0];
 $postcontract = get_post_custom_values('job_contract_type')[0];
 $postlocation = get_post_custom_values('job_location')[0];
@@ -36,7 +51,7 @@ $postlink = get_post_custom_values('job_link')[0];
                             </a>
                         </div>
                         <div class="col mt-4">
-                            <a class="" href="<?php echo get_site_url();?>"  title="Revenir aux offres d'emploi">
+                            <a class="" href="<?php echo(get_site_url());?>?s=<?php echo($keyword. '&location=' . $location); ?>"  title="Revenir aux offres d'emploi">
                                 <i class="fa fa-angle-left" aria-hidden="true"></i> Revenir aux offres 
                             </a>
                         </div>  

@@ -160,7 +160,7 @@ $wp_query = $myquery;
                             </div>    
                                         
                             <div class="col-12 text-center">
-                                <a href="<?php the_permalink();?>" class="stretched-link " title="Visiter l'offre d'emploi <?php echo the_title_attribute();?>">
+                                <a href="<?php the_permalink() ?>?s=<?php echo($keyword . '&location=' . $location); ?>" class="stretched-link " title="Visiter l'offre d'emploi <?php echo the_title_attribute();?>">
                                     <button type="submit"  class="btn btn-primary see-post text-white">Voir l'offre <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                                 </a>
                             </div>
