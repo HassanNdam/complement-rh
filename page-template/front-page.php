@@ -23,7 +23,7 @@ if($_GET) {
 
 		if ($activite > 0) {
 			array_push($metaquery, array(
-						'key' => 'job_activity',
+						'key' => 'custom_secteur_d\'activite',
 				        'value' => ACTIVITE[$activite -1],
 				        'compare' => '=',)
 				);
@@ -139,7 +139,7 @@ $wp_query = $myquery;
                 $postid = get_post_custom_values('job_id')[0];
                 $postcontract = get_post_custom_values('job_contract_type')[0];
                 $postlocation = get_post_custom_values('job_location')[0];
-                $postactivite = get_post_custom_values('job_activity')[0];
+                $postactivite = get_post_custom_values('custom_secteur_d\'activite')[0];
                 $postlink = get_post_custom_values('job_link')[0];
             ?>
             <div class="col-lg-6 mt-1 mb-4">
