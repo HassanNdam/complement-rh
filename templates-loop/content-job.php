@@ -4,9 +4,8 @@
 $postid = get_post_custom_values('job_id')[0];
 $postcontract = get_post_custom_values('job_contract_type')[0];
 $postlocation = get_post_custom_values('job_location')[0];
-$postactivite = get_post_custom_values('job_activity')[0];
+$postactivite = get_post_custom_values('custom_secteur_d\'activite')[0];
 $postlink = get_post_custom_values('job_link')[0];
-
 ?>
 
 <div class="position-relative p-3 p-md-5 text-center overflow-hidden single-image">
