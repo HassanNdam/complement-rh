@@ -202,10 +202,9 @@ $wp_query = $myquery;
     <?php endif; ?>
 </div>
 
-<div class="container">
     <div class="row justify-content-center mt-4 mb-5">
-        <div class="col-1"></div>
-            <div class="col-1 text-center margin-pagination">
+        <!-- <div class="col-1"></div> -->
+            <div class="col-1 text-center margin-pagination mt-4 mb-5">
                 <?php pagination_post(); ?>
             </div>
     </div>

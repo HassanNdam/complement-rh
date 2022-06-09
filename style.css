@@ -312,9 +312,17 @@ p.intuitionapply {
 }
 
 #single-page h3 {
-  margin-top: 20px;
   margin-bottom: 25px;
   color: #1cbac8;
+}
+
+.intuitiondescription {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post-desc-right{
+  max-height: 300px;
 }
 
 @media screen and (max-width:991px) {
