@@ -67,7 +67,7 @@ $wp_query = $myquery;
 </div>
 
 <!-- Formulaire de recherche -->
-
+    
 <div class="container position-relative  border text-center bg-light-transparent p-5">
         <form method="get" id="search-form" action="<?php echo get_site_url(); ?>">
 			<div class="row searchrow justify-content-center">
@@ -202,9 +202,10 @@ $wp_query = $myquery;
     <?php endif; ?>
 </div>
 
-    <div class="row justify-content-center mt-4 mb-5">
-        <!-- <div class="col-1"></div> -->
-            <div class="col-1 text-center margin-pagination mt-4 mb-5">
+<div class="container">
+    <div class="row justify-content-center mt-4">
+        <div class="col-1"></div>
+            <div class="col-1 text-center mt-5 mb-5">
                 <?php pagination_post(); ?>
             </div>
     </div>
