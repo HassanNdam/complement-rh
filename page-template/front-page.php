@@ -112,7 +112,7 @@ $wp_query = $myquery;
 		</form>
 </div>
 
-<div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5 text-center">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item accueil"><a href="<?php echo get_site_url();?>">Accueil</a></li>
@@ -202,11 +202,8 @@ $wp_query = $myquery;
     <?php endif; ?>
 </div>
 
-<div class="container">
-    <div class="row justify-content-center mt-4">
-        <div class="col-1"></div>
-            <div class="col-1 text-center mt-5 mb-5">
-                <?php pagination_post(); ?>
-            </div>
-    </div>
+<div class="container d-flex align-items-center justify-content-center mt-5">
+        <div class="mb-4">
+                        <?php pagination_post();?> 
+        </div>
 </div>
