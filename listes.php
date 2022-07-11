@@ -10,7 +10,10 @@ const ACTIVITE = [
     "Facilities management / multitechnique",
     "Énergies renouvelables",
     "Froid commercial ou industriel",
-    "Réseaux secs, éclairage public, télécommunication"
+    "Réseaux secs, éclairage public, télécommunication",
+    "Réseaux de chaleur",
+    "Infrastructure de Recharge de Véhicule Électrique",
+    "Cuisine professionnelle"
 ];
 
 // const POSTE = [
