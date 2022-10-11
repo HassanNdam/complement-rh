@@ -34,7 +34,7 @@
     © 2021 Copyright @ Designed by:
     <a class="text-reset fw-bold" href="https://paradisiak.com/" target="_blank">Paradisiak</a>
   </div>
-</foote>
+</footer>
 
 <!-- Intégration des données cookies & RGPD -->
 
