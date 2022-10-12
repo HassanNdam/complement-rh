@@ -38,7 +38,7 @@
 
 <!-- Intégration des données cookies & RGPD -->
 
-<div id="wrapper">>
+<div id="wrapper">
     <div class="cookie-container text-center alert alert-dismissible fade show" role="alert">
       <p class="cookie-text text-center text-justify mt-5">
         Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies. Voir notre
